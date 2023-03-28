@@ -23,11 +23,7 @@ You can check out our [Postman collection here](https://www.postman.com/dominikk
 Get your free API key [here](https://app.currencyapi.com/register) and simply query our /info endpoint:
 
 ```
-# your own IP
-curl "https://api.currencyapi.com/v3/latest?apikey=YOUR-APIKEY"
-
-# query a specific IP
-
+# get the latest exchange rates
 curl "https://api.currencyapi.com/v3/latest?apikey=YOUR-APIKEY"
 
 ```
